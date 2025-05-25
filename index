@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SSK Technological</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="stylee" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">SSK <span class="text-primary">Technological</span></a>
+      <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <a href="#contact" class="btn btn-outline-primary ms-lg-3">Get a Free Trial</a>
+      </div>
+    </div>
+  </nav>
+
+  
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 hero-content fade-in">
+                    <div class="hero-badge">
+                        <i class="fas fa-star"></i> Top-Rated IT Solutions Provider
+                    </div>
+                    <h1>Technology Solutions <br>You Need Indeed</h1>
+                    <p>Elevate your business with custom IT solutions. Showcase your digital presence through best-in-class technologies and strategic development expertise.</p>
+                    <div>
+                        <button class="btn btn-cta me-3">Get Started</button>
+                        <a href="#projects" style="text-decoration: none;"><button class="btn btn-outline">View Projects</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wave-container">
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffffff" fill-opacity="1" d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,224C672,245,768,267,864,261.3C960,256,1056,224,1152,208C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Client Logos -->
+    <section class="client-logos">
+        <div class="container">
+            <h5>TRUSTED BY LEADING COMPANIES</h5>
+            <div class="logo-container">
+                <div class="logo-item">
+                    <h4>Opal</h4>
+                </div>
+                <div class="logo-item">
+                    <h4>Dune</h4>
+                </div>
+                <div class="logo-item">
+                    <h4>Oasis</h4>
+                </div>
+                <div class="logo-item">
+                    <h4>Asterisk</h4>
+                </div>
+                <div class="logo-item">
+                    <h4>Corvus</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="service-badge">Our Services</div>
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">Helping businesses stand out with technology solutions that captivate and convert.</p>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Building responsive, modern websites and web applications that deliver exceptional user experiences and drive business growth.</p>
+                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile App Development</h3>
+                        <p>Creating native and cross-platform mobile applications that engage users and extend your digital presence.</p>
+                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Cloud Solutions</h3>
+                        <p>Implementing scalable cloud architecture and migration services to optimize your business operations and reduce costs.</p>
+                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Cybersecurity</h3>
+                        <p>Protecting your digital assets with comprehensive security solutions, vulnerability assessments, and threat monitoring.</p>
+                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Data Analytics</h3>
+                        <p>Transforming your data into actionable insights with advanced analytics, visualization, and business intelligence solutions.</p>
+                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI & Machine Learning</h3>
+                        <p>Harnessing the power of artificial intelligence to automate processes, predict trends, and make data-driven decisions.</p>
+                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="service-badge">Our Work</div>
+            <h2 class="section-title">Recent Projects</h2>
+            <p class="section-subtitle">Showcasing our expertise through innovative solutions that drive digital transformation.</p>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <img src="assests/e-comm.png" alt="Project 1" class="project-img">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">Web Development</span>
+                                <span class="project-tag">UI/UX</span>
+                            </div>
+                            <h4>E-Commerce Platform</h4>
+                            <p>A modern e-commerce solution with seamless checkout, inventory management, and analytics dashboard.</p>
+                            <a href="#" class="card-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <img src="assests/smart-home.png" alt="Project 2" class="project-img">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">Mobile App</span>
+                                <span class="project-tag">IoT</span>
+                            </div>
+                            <h4>Smart Home Control</h4>
+                            <p>A cross-platform mobile application for controlling smart home devices with real-time monitoring.</p>
+                            <a href="#" class="card-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <img src="assests/cloud.png" alt="Project 3" class="project-img">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">Cloud</span>
+                                <span class="project-tag">DevOps</span>
+                            </div>
+                            <h4>Enterprise Cloud Migration</h4>
+                            <p>Migrating legacy systems to cloud infrastructure with zero downtime and improved performance.</p>
+                            <a href="#" class="card-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="service-badge">Client Reviews</div>
+            <h2 class="section-title">Client Reviews</h2>
+            <p class="section-subtitle">Real feedback from clients who trusted our IT expertise to elevate their businesses.</p>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "Working with Neptune IT was a seamless experience. Their technical creativity with functionality resulted in solutions that not only looked stunning but also drove meaningful engagement. Highly recommended!"
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assests/avatar.png" alt="Avatar" class="testimonial-avatar">
+                            <div class="testimonial-info">
+                                <h5>Richard Johnson</h5>
+                                <p>Creative Director & Lead Designer</p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "Neptune's strategic approach to IT brought our digital transformation to life. The solutions were developed with a keen eye for detail and a deep understanding of our business needs. Their team is truly exceptional."
+                            </div>
+                        <div class="testimonial-author">
+                            <img src="assests/avatar.png" alt="Avatar" class="testimonial-avatar">
+                            <div class="testimonial-info">
+                                <h5>Richard Johnson</h5>
+                                <p>Creative Director & Lead Designer</p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "Neptune's strategic approach to IT brought our digital transformation to life. The solutions they developed elevated our aesthetic and aligned perfectly with our sustainability values."
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assests/avatar.png" alt="Avatar" class="testimonial-avatar">
+                            <div class="testimonial-info">
+                                <h5>June Lee</h5>
+                                <p>CEO of GreenRoots</p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "Every project Neptune launches brings the perfect blend of design and purpose. They created software solutions that reflected our eco-friendly mission and our products stand out in the market."
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assests/avatar.png" alt="Avatar" class="testimonial-avatar">
+                            <div class="testimonial-info">
+                                <h5>Jona Carter</h5>
+                                <p>Founder of EcoLux</p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-6 mb-4 mb-md-0">
+                    <div class="stat-item">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-text">Projects Completed</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4 mb-md-0">
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-text">Client Satisfaction</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-text">Years of Experience</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <div class="stat-number">42</div>
+                        <div class="stat-text">Tech Experts</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+<section id="team" class="team">
+    <div class="container">
+        <div class="service-badge">Our Experts</div>
+        <h2 class="section-title">Meet Our Team</h2>
+        <p class="section-subtitle">Talented professionals committed to delivering innovative IT solutions.</p>
+        
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="team-card">
+                    <img src="assests/member1.png" alt="Team Member" class="team-img">
+                    <div class="team-content">
+                        <h4>David Mitchell</h4>
+                        <p>CTO & Lead Developer</p>
+                        <div class="team-bio">
+                            With over 15 years of experience in web development and cloud solutions, David leads our technical strategy.
+                        </div>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="team-card">
+                    <img src="assests/member2.png" alt="Team Member" class="team-img">
+                    <div class="team-content">
+                        <h4>Sarah Johnson</h4>
+                        <p>UX/UI Design Lead</p>
+                        <div class="team-bio">
+                            Sarah brings creativity and user-centered design principles to every project, ensuring exceptional digital experiences.
+                        </div>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="team-card">
+                    <img src="assests/member3.png" alt="Team Member" class="team-img">
+                    <div class="team-content">
+                        <h4>Michael Zhang</h4>
+                        <p>AI & ML Specialist</p>
+                        <div class="team-bio">
+                            Michael specializes in developing smart AI solutions that help businesses automate processes and gain insights.
+                        </div>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-medium"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="team-card">
+                    <img src="assests/member4.png" alt="Team Member" class="team-img">
+                    <div class="team-content">
+                        <h4>Emma Rodriguez</h4>
+                        <p>Cybersecurity Expert</p>
+                        <div class="team-bio">
+                            Emma ensures that all our solutions meet the highest security standards to protect our clients' digital assets.
+                        </div>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="service-badge">Get In Touch</div>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-subtitle">Ready to elevate your business with innovative IT solutions? Let's connect.</p>
+        
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-text">
+                            <h5>Office Location</h5>
+                            <p>123 Tech Avenue, Silicon Valley, CA 94043</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="contact-text">
+                            <h5>Call Us</h5>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-text">
+                            <h5>Email Us</h5>
+                            <p>info@neptuneit.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div class="contact-text">
+                            <h5>Working Hours</h5>
+                            <p>Monday - Friday: 9AM - 6PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <form class="contact-form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Subject">
+                    <textarea class="form-control" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn-cta">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <a href="#" class="footer-logo">Neptune<span>IT</span></a>
+                <p class="footer-text">Empowering businesses with innovative IT solutions that drive growth and digital transformation.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                <div class="footer-links">
+                    <h5>Services</h5>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Mobile Apps</a></li>
+                        <li><a href="#">Cloud Solutions</a></li>
+                        <li><a href="#">Cybersecurity</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                <div class="footer-links">
+                    <h5>Company</h5>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="footer-links">
+                    <h5>Newsletter</h5>
+                    <p class="footer-text">Subscribe to receive updates on the latest tech trends and our services.</p>
+                    <form class="d-flex mt-3">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                        <button type="submit" class="btn btn-cta ms-2">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Neptune IT Solutions. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap and JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+            
