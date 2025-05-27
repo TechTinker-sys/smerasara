@@ -9,48 +9,7 @@
   <link rel="stylesheet" href="stylee" />
 </head>
 <body>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">SSK <span class="text-primary">Technological</span></a>
-      <button 
-        class="navbar-toggler" 
-        type="button" 
-        data-bs-toggle="collapse" 
-        data-bs-target="#navbarNav" 
-        aria-controls="navbarNav" 
-        aria-expanded="false" 
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#testimonials">Testimonials</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#team">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-        <a href="#contact" class="btn btn-outline-primary ms-lg-3">Get a Free Trial</a>
-      </div>
-    </div>
-  </nav>
-
-  
-
-    <!-- Hero Section -->
+      <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <div class="row align-items-center">
@@ -58,8 +17,9 @@
                     <div class="hero-badge">
                         <i class="fas fa-star"></i> Top-Rated IT Solutions Provider
                     </div>
-                    <h1>Technology Solutions <br>You Need Indeed</h1>
-                    <p>Elevate your business with custom IT solutions. Showcase your digital presence through best-in-class technologies and strategic development expertise.</p>
+                    <h1>Innovative Tech Solutions<br>That Drive Success</h1>
+                    <p>Transform your business with tailored IT services. Leverage cutting-edge technologies and expert development strategies to stand out in the digital world.</p>
+
                     <div>
                         <button class="btn btn-cta me-3">Get Started</button>
                         <a href="#projects" style="text-decoration: none;"><button class="btn btn-outline">View Projects</button></a>
@@ -99,226 +59,229 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <div class="service-badge">Our Services</div>
-            <h2 class="section-title">Services</h2>
-            <p class="section-subtitle">Helping businesses stand out with technology solutions that captivate and convert.</p>
-            
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-card">
-                        <div class="icon">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <h3>Web Development</h3>
-                        <p>Building responsive, modern websites and web applications that deliver exceptional user experiences and drive business growth.</p>
-                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-card">
-                        <div class="icon">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <h3>Mobile App Development</h3>
-                        <p>Creating native and cross-platform mobile applications that engage users and extend your digital presence.</p>
-                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-card">
-                        <div class="icon">
-                            <i class="fas fa-cloud"></i>
-                        </div>
-                        <h3>Cloud Solutions</h3>
-                        <p>Implementing scalable cloud architecture and migration services to optimize your business operations and reduce costs.</p>
-                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-card">
-                        <div class="icon">
-                            <i class="fas fa-shield-alt"></i>
-                        </div>
-                        <h3>Cybersecurity</h3>
-                        <p>Protecting your digital assets with comprehensive security solutions, vulnerability assessments, and threat monitoring.</p>
-                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-card">
-                        <div class="icon">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <h3>Data Analytics</h3>
-                        <p>Transforming your data into actionable insights with advanced analytics, visualization, and business intelligence solutions.</p>
-                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-card">
-                        <div class="icon">
-                            <i class="fas fa-robot"></i>
-                        </div>
-                        <h3>AI & Machine Learning</h3>
-                        <p>Harnessing the power of artificial intelligence to automate processes, predict trends, and make data-driven decisions.</p>
-                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Services Section -->
+<section id="services" class="services">
+    <div class="container">
+        <div class="service-badge">What We Offer</div>
+        <h2 class="section-title">Our Expertise</h2>
+        <p class="section-subtitle">Delivering cutting-edge digital solutions tailored to your business needs.</p>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="service-badge">Our Work</div>
-            <h2 class="section-title">Recent Projects</h2>
-            <p class="section-subtitle">Showcasing our expertise through innovative solutions that drive digital transformation.</p>
-            
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="project-card">
-                        <img src="assests/e-comm.png" alt="Project 1" class="project-img">
-                        <div class="project-content">
-                            <div class="project-tags">
-                                <span class="project-tag">Web Development</span>
-                                <span class="project-tag">UI/UX</span>
-                            </div>
-                            <h4>E-Commerce Platform</h4>
-                            <p>A modern e-commerce solution with seamless checkout, inventory management, and analytics dashboard.</p>
-                            <a href="#" class="card-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Custom Web Apps</h3>
+                    <p>Crafting tailored web applications with performance, scalability, and user engagement at the core.</p>
+                    <a href="#" class="card-link">Discover More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>iOS & Android Apps</h3>
+                    <p>Delivering seamless mobile experiences with native and hybrid mobile app development.</p>
+                    <a href="#" class="card-link">Discover More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Infrastructure</h3>
+                    <p>Empowering growth with secure, flexible, and efficient cloud environments.</p>
+                    <a href="#" class="card-link">Discover More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security Audits</h3>
+                    <p>Comprehensive threat analysis and protection to ensure digital safety and compliance.</p>
+                    <a href="#" class="card-link">Discover More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Insightful Analytics</h3>
+                    <p>Turning raw data into business intelligence through real-time dashboards and KPIs.</p>
+                    <a href="#" class="card-link">Discover More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Smart Automation</h3>
+                    <p>Leveraging AI to streamline processes, reduce costs, and enhance operational efficiency.</p>
+                    <a href="#" class="card-link">Discover More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <div class="service-badge">Portfolio</div>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Innovative, impactful, and future-ready digital transformations we’ve led.</p>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="assests/e-comm.png" alt="Project 1" class="project-img">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">E-Commerce</span>
+                            <span class="project-tag">React</span>
                         </div>
+                        <h4>NextGen Online Store</h4>
+                        <p>An immersive shopping experience with dynamic UI, smart cart, and integrated payment gateways.</p>
+                        <a href="#" class="card-link">Explore Project <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="project-card">
-                        <img src="assests/smart-home.png" alt="Project 2" class="project-img">
-                        <div class="project-content">
-                            <div class="project-tags">
-                                <span class="project-tag">Mobile App</span>
-                                <span class="project-tag">IoT</span>
-                            </div>
-                            <h4>Smart Home Control</h4>
-                            <p>A cross-platform mobile application for controlling smart home devices with real-time monitoring.</p>
-                            <a href="#" class="card-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="assests/smart-home.png" alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">IoT</span>
+                            <span class="project-tag">Flutter</span>
                         </div>
+                        <h4>Connected Home Hub</h4>
+                        <p>Unified control system for smart home devices with AI-based automation and live monitoring.</p>
+                        <a href="#" class="card-link">Explore Project <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="project-card">
-                        <img src="assests/cloud.png" alt="Project 3" class="project-img">
-                        <div class="project-content">
-                            <div class="project-tags">
-                                <span class="project-tag">Cloud</span>
-                                <span class="project-tag">DevOps</span>
-                            </div>
-                            <h4>Enterprise Cloud Migration</h4>
-                            <p>Migrating legacy systems to cloud infrastructure with zero downtime and improved performance.</p>
-                            <a href="#" class="card-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="assests/cloud.png" alt="Project 3" class="project-img">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">DevOps</span>
+                            <span class="project-tag">AWS</span>
                         </div>
+                        <h4>CloudOps Migration</h4>
+                        <p>Modernizing enterprise infrastructure with CI/CD pipelines and full cloud-native architecture.</p>
+                        <a href="#" class="card-link">Explore Project <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials">
-        <div class="container">
-            <div class="service-badge">Client Reviews</div>
-            <h2 class="section-title">Client Reviews</h2>
-            <p class="section-subtitle">Real feedback from clients who trusted our IT expertise to elevate their businesses.</p>
-            
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="testimonial-card">
-                        <div class="testimonial-text">
-                            "Working with Neptune IT was a seamless experience. Their technical creativity with functionality resulted in solutions that not only looked stunning but also drove meaningful engagement. Highly recommended!"
-                        </div>
-                        <div class="testimonial-author">
-                            <img src="assests/avatar.png" alt="Avatar" class="testimonial-avatar">
-                            <div class="testimonial-info">
-                                <h5>Richard Johnson</h5>
-                                <p>Creative Director & Lead Designer</p>
-                                <div class="testimonial-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
+    <div class="container">
+        <div class="service-badge">Client Reviews</div>
+        <h2 class="section-title">Client Reviews</h2>
+        <p class="section-subtitle">Real feedback from clients who trusted our IT expertise to elevate their businesses.</p>
+        
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Working with SSK Technology was a seamless experience. Their technical creativity with functionality resulted in solutions that not only looked stunning but also drove meaningful engagement. Highly recommended!"
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assests/avatar.png" alt="Avatar" class="testimonial-avatar">
+                        <div class="testimonial-info">
+                            <h5>Richard Johnson</h5>
+                            <p>Creative Director & Lead Designer</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="testimonial-card">
-                        <div class="testimonial-text">
-                            "Neptune's strategic approach to IT brought our digital transformation to life. The solutions were developed with a keen eye for detail and a deep understanding of our business needs. Their team is truly exceptional."
-                            </div>
-                        <div class="testimonial-author">
-                            <img src="assests/avatar.png" alt="Avatar" class="testimonial-avatar">
-                            <div class="testimonial-info">
-                                <h5>Richard Johnson</h5>
-                                <p>Creative Director & Lead Designer</p>
-                                <div class="testimonial-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "SSK Technology's strategic approach to IT brought our digital transformation to life. The solutions were developed with a keen eye for detail and a deep understanding of our business needs. Their team is truly exceptional."
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assests/avatar.png" alt="Avatar" class="testimonial-avatar">
+                        <div class="testimonial-info">
+                            <h5>Richard Johnson</h5>
+                            <p>Creative Director & Lead Designer</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="testimonial-card">
-                        <div class="testimonial-text">
-                            "Neptune's strategic approach to IT brought our digital transformation to life. The solutions they developed elevated our aesthetic and aligned perfectly with our sustainability values."
-                        </div>
-                        <div class="testimonial-author">
-                            <img src="assests/avatar.png" alt="Avatar" class="testimonial-avatar">
-                            <div class="testimonial-info">
-                                <h5>June Lee</h5>
-                                <p>CEO of GreenRoots</p>
-                                <div class="testimonial-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "SSK Technology's strategic approach to IT brought our digital transformation to life. The solutions they developed elevated our aesthetic and aligned perfectly with our sustainability values."
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assests/avatar.png" alt="Avatar" class="testimonial-avatar">
+                        <div class="testimonial-info">
+                            <h5>June Lee</h5>
+                            <p>CEO of GreenRoots</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="testimonial-card">
-                        <div class="testimonial-text">
-                            "Every project Neptune launches brings the perfect blend of design and purpose. They created software solutions that reflected our eco-friendly mission and our products stand out in the market."
-                        </div>
-                        <div class="testimonial-author">
-                            <img src="assests/avatar.png" alt="Avatar" class="testimonial-avatar">
-                            <div class="testimonial-info">
-                                <h5>Jona Carter</h5>
-                                <p>Founder of EcoLux</p>
-                                <div class="testimonial-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Every project SSK Technology launches brings the perfect blend of design and purpose. They created software solutions that reflected our eco-friendly mission and our products stand out in the market."
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assests/avatar.png" alt="Avatar" class="testimonial-avatar">
+                        <div class="testimonial-info">
+                            <h5>Jona Carter</h5>
+                            <p>Founder of EcoLux</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- Stats Section -->
     <section class="stats">
@@ -353,21 +316,22 @@
     </section>
 
     <!-- Team Section -->
+
 <section id="team" class="team">
     <div class="container">
-        <div class="service-badge">Our Experts</div>
-        <h2 class="section-title">Meet Our Team</h2>
-        <p class="section-subtitle">Talented professionals committed to delivering innovative IT solutions.</p>
+        <div class="service-badge">Team Behind the Magic</div>
+        <h2 class="section-title">Our Leadership</h2>
+        <p class="section-subtitle">A dynamic group of professionals passionate about delivering excellence in every line of code.</p>
         
         <div class="row">
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="team-card">
                     <img src="assests/member1.png" alt="Team Member" class="team-img">
                     <div class="team-content">
-                        <h4>David Mitchell</h4>
-                        <p>CTO & Lead Developer</p>
+                        <h4>Aiden Carter</h4>
+                        <p>Chief Technology Officer</p>
                         <div class="team-bio">
-                            With over 15 years of experience in web development and cloud solutions, David leads our technical strategy.
+                            Aiden leads engineering with a strong vision for innovation and a track record in full-stack product development.
                         </div>
                         <div class="team-social">
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -381,10 +345,10 @@
                 <div class="team-card">
                     <img src="assests/member2.png" alt="Team Member" class="team-img">
                     <div class="team-content">
-                        <h4>Sarah Johnson</h4>
-                        <p>UX/UI Design Lead</p>
+                        <h4>Lena Moore</h4>
+                        <p>Head of Design</p>
                         <div class="team-bio">
-                            Sarah brings creativity and user-centered design principles to every project, ensuring exceptional digital experiences.
+                            Lena transforms ideas into elegant user interfaces with an eye for detail and a passion for intuitive UX.
                         </div>
                         <div class="team-social">
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -394,43 +358,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="team-card">
-                    <img src="assests/member3.png" alt="Team Member" class="team-img">
-                    <div class="team-content">
-                        <h4>Michael Zhang</h4>
-                        <p>AI & ML Specialist</p>
-                        <div class="team-bio">
-                            Michael specializes in developing smart AI solutions that help businesses automate processes and gain insights.
-                        </div>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-medium"></i></a>
-                            <a href="#"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="team-card">
-                    <img src="assests/member4.png" alt="Team Member" class="team-img">
-                    <div class="team-content">
-                        <h4>Emma Rodriguez</h4>
-                        <p>Cybersecurity Expert</p>
-                        <div class="team-bio">
-                            Emma ensures that all our solutions meet the highest security standards to protect our clients' digital assets.
-                        </div>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fas fa-globe"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Contact Section -->
 <section id="contact" class="contact">
@@ -496,50 +423,50 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 mb-4 mb-lg-0">
-                <a href="#" class="footer-logo">Neptune<span>IT</span></a>
-                <p class="footer-text">Empowering businesses with innovative IT solutions that drive growth and digital transformation.</p>
+                <a href="#" class="footer-logo">Nova<span>Tech</span></a>
+                <p class="footer-text">Delivering cutting-edge technology services to help you stay ahead in a rapidly evolving digital world.</p>
                 <div class="footer-social">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
                 <div class="footer-links">
-                    <h5>Services</h5>
+                    <h5>Solutions</h5>
                     <ul>
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">Mobile Apps</a></li>
-                        <li><a href="#">Cloud Solutions</a></li>
-                        <li><a href="#">Cybersecurity</a></li>
+                        <li><a href="#">AI Integration</a></li>
+                        <li><a href="#">E-commerce Platforms</a></li>
+                        <li><a href="#">IT Consulting</a></li>
+                        <li><a href="#">Data Analytics</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
                 <div class="footer-links">
-                    <h5>Company</h5>
+                    <h5>Explore</h5>
                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Team</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Who We Are</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Partnerships</a></li>
+                        <li><a href="#">Media Center</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4">
                 <div class="footer-links">
-                    <h5>Newsletter</h5>
-                    <p class="footer-text">Subscribe to receive updates on the latest tech trends and our services.</p>
+                    <h5>Join Our Newsletter</h5>
+                    <p class="footer-text">Get exclusive insights and updates delivered straight to your inbox every month.</p>
                     <form class="d-flex mt-3">
-                        <input type="email" class="form-control" placeholder="Your Email">
-                        <button type="submit" class="btn btn-cta ms-2">Subscribe</button>
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button type="submit" class="btn btn-cta ms-2">Join Now</button>
                     </form>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 Neptune IT Solutions. All Rights Reserved.</p>
+            <p>&copy; 2025 NovaTech Innovations. All rights reserved. Built with passion for progress.</p>
         </div>
     </div>
 </footer>
